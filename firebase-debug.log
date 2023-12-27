@@ -1,0 +1,185 @@
+[debug] [2023-12-08T05:48:01.733Z] ----------------------------------------------------------------------
+[debug] [2023-12-08T05:48:01.738Z] Command:       C:\Users\pc\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-08T05:48:01.738Z] CLI Version:   13.0.1
+[debug] [2023-12-08T05:48:01.739Z] Platform:      win32
+[debug] [2023-12-08T05:48:01.739Z] Node Version:  v20.7.0
+[debug] [2023-12-08T05:48:01.739Z] Time:          Fri Dec 08 2023 12:48:01 GMT+0700 (Western Indonesia Time)
+[debug] [2023-12-08T05:48:01.739Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-08T05:48:01.744Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-12-08T05:48:02.895Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-08T05:48:02.896Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-08T05:48:02.898Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+[debug] [2023-12-08T05:48:05.509Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Command.actionFn (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:37:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T05:48:05.826Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:102:35)
+    at process.emit (node:events:526:35)
+    at process.emit (node:domain:488:12)
+    at process.exit (node:internal/process/per_thread:193:15)
+    at Timeout._onTimeout (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T05:48:14.868Z] ----------------------------------------------------------------------
+[debug] [2023-12-08T05:48:14.873Z] Command:       C:\Users\pc\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-08T05:48:14.873Z] CLI Version:   13.0.1
+[debug] [2023-12-08T05:48:14.874Z] Platform:      win32
+[debug] [2023-12-08T05:48:14.874Z] Node Version:  v20.7.0
+[debug] [2023-12-08T05:48:14.874Z] Time:          Fri Dec 08 2023 12:48:14 GMT+0700 (Western Indonesia Time)
+[debug] [2023-12-08T05:48:14.875Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-08T05:48:14.880Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-12-08T05:48:15.993Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-08T05:48:15.994Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-08T05:48:15.996Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+[debug] [2023-12-08T05:48:17.774Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Command.actionFn (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:37:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T05:48:18.055Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:102:35)
+    at process.emit (node:events:526:35)
+    at process.emit (node:domain:488:12)
+    at process.exit (node:internal/process/per_thread:193:15)
+    at Timeout._onTimeout (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T05:48:24.294Z] ----------------------------------------------------------------------
+[debug] [2023-12-08T05:48:24.298Z] Command:       C:\Users\pc\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-08T05:48:24.299Z] CLI Version:   13.0.1
+[debug] [2023-12-08T05:48:24.299Z] Platform:      win32
+[debug] [2023-12-08T05:48:24.300Z] Node Version:  v20.7.0
+[debug] [2023-12-08T05:48:24.300Z] Time:          Fri Dec 08 2023 12:48:24 GMT+0700 (Western Indonesia Time)
+[debug] [2023-12-08T05:48:24.300Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-08T05:48:24.305Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-12-08T05:48:25.420Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-08T05:48:25.421Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-08T05:48:25.423Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+[debug] [2023-12-08T05:48:25.593Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Command.actionFn (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:37:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T05:48:25.881Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:102:35)
+    at process.emit (node:events:526:35)
+    at process.emit (node:domain:488:12)
+    at process.exit (node:internal/process/per_thread:193:15)
+    at Timeout._onTimeout (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T05:48:36.580Z] ----------------------------------------------------------------------
+[debug] [2023-12-08T05:48:36.585Z] Command:       C:\Users\pc\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-08T05:48:36.586Z] CLI Version:   13.0.1
+[debug] [2023-12-08T05:48:36.586Z] Platform:      win32
+[debug] [2023-12-08T05:48:36.586Z] Node Version:  v20.7.0
+[debug] [2023-12-08T05:48:36.587Z] Time:          Fri Dec 08 2023 12:48:36 GMT+0700 (Western Indonesia Time)
+[debug] [2023-12-08T05:48:36.587Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-08T05:48:36.592Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-12-08T05:48:37.499Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-08T05:48:37.500Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-08T05:48:37.503Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+[debug] [2023-12-08T05:48:38.303Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Command.actionFn (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:37:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T05:48:38.661Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:102:35)
+    at process.emit (node:events:526:35)
+    at process.emit (node:domain:488:12)
+    at process.exit (node:internal/process/per_thread:193:15)
+    at Timeout._onTimeout (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T06:49:31.580Z] ----------------------------------------------------------------------
+[debug] [2023-12-08T06:49:31.582Z] Command:       C:\Users\pc\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-12-08T06:49:31.583Z] CLI Version:   13.0.1
+[debug] [2023-12-08T06:49:31.583Z] Platform:      win32
+[debug] [2023-12-08T06:49:31.583Z] Node Version:  v20.7.0
+[debug] [2023-12-08T06:49:31.583Z] Time:          Fri Dec 08 2023 13:49:31 GMT+0700 (Western Indonesia Time)
+[debug] [2023-12-08T06:49:31.583Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-08T06:49:31.586Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-12-08T06:49:32.272Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-08T06:49:32.273Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2023-12-08T06:49:32.275Z] Failed to fetch MOTD Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+[debug] [2023-12-08T06:51:08.718Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Command.actionFn (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:37:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-12-08T06:51:09.027Z] Error: EPERM: operation not permitted, mkdir 'C:\Users\pc\.config\configstore'
+    at Object.mkdirSync (node:fs:1416:3)
+    at module.exports.sync (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\make-dir\index.js:114:6)
+    at set all [as all] (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:59:12)
+    at Configstore.set (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:102:35)
+    at process.emit (node:events:526:35)
+    at process.emit (node:domain:488:12)
+    at process.exit (node:internal/process/per_thread:193:15)
+    at Timeout._onTimeout (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:573:17)
+[error] 
+[error] Error: An unexpected error has occurred.

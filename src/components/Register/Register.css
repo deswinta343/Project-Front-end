@@ -1,0 +1,30 @@
+.form_container {
+    width: 30%;
+}
+.register {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form_container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Sesuaikan lebar formulir sesuai kebutuhan */
+    border: 1px solid #ccc; /* Tambahkan garis pada formulir */
+    padding: 20px; /* Sesuaikan padding formulir sesuai kebutuhan */
+    border-radius: 20px; /* Sesuaikan radius border formulir sesuai kebutuhan */
+  }
+  
+
+@media screen and (max-width: 1000px) {
+    .form_container {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .form_container {
+        width: 70%;
+    }
+}

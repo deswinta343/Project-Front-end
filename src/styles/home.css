@@ -1,0 +1,21 @@
+/* Home.css */
+
+.with-shadow {
+    box-shadow: 0 10px 20px rgba(159, 12, 12, 0.1); /* Add shadow effect */
+  }
+  
+  /* Add any additional styling for your Home component */
+  /* Home.css */
+  
+  /* Additional styling for specific shadow color */
+  .with-shadow-seco {
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.1); /* Replace with your desired shadow color (e.g., green) */
+  }
+  
+  /* Add any other styling for your Home component */
+  /* Di dalam file CSS Anda (misalnya Home.css atau file yang sesuai) */
+  
+  .bg-secondary {
+    background-color: #6c757d; /* Sesuaikan dengan warna secondary pada Bootstrap atau sesuai kebutuhan Anda */
+    /* Tambahan styling atau properti CSS lainnya */
+  }

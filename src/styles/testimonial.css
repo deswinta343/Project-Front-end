@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px) {
+  .testimonial p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  .testimonial h6 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .testimonial img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+  }
+}
+
+/* Add this style to your CSS file */
+/* .star-rating {
+  font-size: 1.2em;
+}
+
+.fa-star {
+  color: gold;
+}
+
+.checked {
+  color: gold;
+} */

@@ -1,0 +1,82 @@
+/* header styles */
+.header {
+  background-color: #fff; /* Set your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle effect */
+}
+
+/* header top styles */
+.header__top {
+  padding: 10px 0;
+}
+
+.header__top__left {
+  /* Add styles for the left side of the top header */
+}
+
+.header__top__right {
+  /* Add styles for the right side of the top header */
+}
+
+.header__top__help {
+  /* Add styles for the help section, if needed */
+}
+
+/* main navbar styles */
+.main__navbar {
+  background-color: #333; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+}
+
+.navigation__wrapper {
+  padding: 15px 0;
+}
+
+.mobile__menu {
+  /* Add styles for the mobile menu icon */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  text-decoration: none;
+  color: #fff; /* Set your desired text color for navigation items */
+  margin-right: 20px; /* Set spacing between navigation items */
+  font-size: 16px; /* Set font size for navigation items */
+  transition: color 0.3s ease; /* Add a smooth transition effect for color changes */
+}
+
+.nav__item:hover {
+  color: #ffcc00; /* Set your desired hover color for navigation items */
+}
+
+.nav__active {
+  font-weight: bold; /* Set a different style for the active navigation item */
+}
+
+.nav__right {
+  /* Add styles for the right side of the navigation bar */
+}
+
+.search__box {
+  display: flex;
+  align-items: center;
+  background-color: #fff; /* Set background color for the search box */
+  border-radius: 5px; /* Add border-radius for a rounded appearance */
+  overflow: hidden;
+}
+
+.search__box input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 150px; /* Set the width of the search input */
+}
+
+.search__box span {
+  background-color: #333; /* Set background color for the search icon */
+  padding: 8px;
+  cursor: pointer;
+}
